@@ -79,6 +79,8 @@ const WalletInfo = () => {
     await getBalanceData(walletAddress);
     await getNftData(walletAddress);
 
+    setWalletAddress("");
+
     setLoading(false);
   }, [isValidWalletAddress, walletAddress, getBalanceData, getNftData]);
 
