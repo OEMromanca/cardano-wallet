@@ -1,0 +1,27 @@
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  color: #721c24;
+}
+
+.loading-message {
+  color: #004085;
+}
+
+.error-message-title {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.message div {
+  margin-top: 5px;
+  display: block;
+}

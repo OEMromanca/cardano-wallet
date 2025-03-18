@@ -1,0 +1,10 @@
+.wallet-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 26px;
+  color: blue;
+}
